@@ -1,7 +1,0 @@
-# robots.txt für trefz.biz
-
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://trefz.biz/sitemap.xml
