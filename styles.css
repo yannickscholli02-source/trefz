@@ -1,9 +1,9 @@
 :root {
-    --orange: #e8492a;
-    --orange-light: rgba(232, 73, 42, 0.08);
-    --orange-hover: #d03e22;
-    --dark: #1a1a1a;
-    --text: #2d2d2d;
+    --orange: #e75c3f;
+    --orange-light: rgba(231, 92, 63, 0.08);
+    --orange-hover: #d04a2e;
+    --dark: #393a36;
+    --text: #4a4b46;
     --text-light: #6b6b6b;
     --text-muted: #999;
     --border: #e8e8e8;
@@ -11,7 +11,7 @@
     --bg-soft: #f8f8f8;
     --bg-card: #ffffff;
     --white: #ffffff;
-    --red: #e8492a;
+    --red: #e75c3f;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
