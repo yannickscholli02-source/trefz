@@ -50,6 +50,10 @@
         <p>Werden Sie Teil unseres Teams – sichere Arbeitsplätze, flache Hierarchien und echte Entwicklungsmöglichkeiten.</p>
     </section>
 
+    <section class="image-banner">
+        <img src="gebaeude.jpg" alt="Trefz GmbH Firmengebäude Schwieberdingen" loading="lazy">
+    </section>
+
     <section class="jobs-section">
         <div class="jobs-container">
             <div id="jobs-list"></div>
@@ -91,9 +95,9 @@
                 <p>35+ Jahre am Markt</p>
             </div>
             <div class="benefit-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <h3>Weiterbildung</h3>
-                <p>IHK-Ausbildungsbetrieb</p>
+                <img src="ihk_logo.png" alt="IHK Ausbildungsbetrieb" style="width: 48px; height: 48px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h3>IHK Ausbildungsbetrieb</h3>
+                <p>Anerkannte Ausbildung</p>
             </div>
             <div class="benefit-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -107,7 +111,7 @@
         <div class="footer-grid">
             <div class="footer-brand">
                 <a href="index.html" class="logo"><img src="trefz_logo.png" alt="Trefz GmbH"></a>
-                <p>B2B Logistik & Fulfillment<br>Schwieberdingen / Stuttgart</p>
+                <p>Logistik & Fulfillment<br>Schwieberdingen / Stuttgart</p>
                 <div class="footer-address">
                     <p>Markgröninger Straße 64<br>71701 Schwieberdingen</p>
                     <p><a href="tel:+4971503509-0">+49 7150 3509-0</a><br><a href="mailto:info@trefz.biz">info@trefz.biz</a></p>
@@ -146,21 +150,56 @@
         </div>
     </footer>
 
+    <!-- Impressum -->
     <div class="modal" id="impressum-modal">
         <div class="modal-content">
             <div class="modal-header"><h2>Impressum</h2><button class="modal-close" onclick="closeModal('impressum')">&times;</button></div>
             <div class="modal-body">
-                <h3>Trefz GmbH</h3>
-                <p>Markgröninger Straße 64, 71701 Schwieberdingen<br>Tel: +49 7150 3509-0 · info@trefz.biz<br>GF: Steffen Scholl · HRB 204881, AG Stuttgart</p>
+                <h3>Angaben gemäß § 5 DDG</h3>
+                <p>Trefz GmbH<br>Markgröninger Straße 64<br>71701 Schwieberdingen</p>
+                <h3>Vertreten durch</h3>
+                <p>Geschäftsführer: Steffen Scholl</p>
+                <h3>Kontakt</h3>
+                <p>Telefon: +49 (0) 7150 35 09-0<br>Telefax: +49 (0) 7150 35 09-44<br>E-Mail: <a href="mailto:info@trefz.biz">info@trefz.biz</a></p>
+                <h3>Registereintrag</h3>
+                <p>Amtsgericht Stuttgart, HRB 204881</p>
+                <h3>Umsatzsteuer-ID</h3>
+                <p>USt-IdNr. gemäß § 27a UStG: DE180999019</p>
+                <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+                <p>Steffen Scholl, Markgröninger Straße 64, 71701 Schwieberdingen</p>
+                <h3>EU-Streitschlichtung</h3>
+                <p>Plattform der EU-Kommission zur Online-Streitbeilegung: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
             </div>
         </div>
     </div>
+
+    <!-- Datenschutz -->
     <div class="modal" id="datenschutz-modal">
-        <div class="modal-content">
-            <div class="modal-header"><h2>Datenschutz</h2><button class="modal-close" onclick="closeModal('datenschutz')">&times;</button></div>
-            <div class="modal-body"><p>Verantwortlicher: Steffen Scholl · Datenschutz: sandra.scholl@trefz.biz<br>Rechte auf Auskunft, Berichtigung und Löschung gem. DSGVO.</p></div>
+        <div class="modal-content" style="max-width: 750px;">
+            <div class="modal-header"><h2>Datenschutzerklärung</h2><button class="modal-close" onclick="closeModal('datenschutz')">&times;</button></div>
+            <div class="modal-body">
+                <h3>1. Verantwortlicher</h3>
+                <p>Trefz GmbH, Markgröninger Straße 64, 71701 Schwieberdingen<br>Tel: +49 (0) 7150 35 09-0 · E-Mail: <a href="mailto:info@trefz.biz">info@trefz.biz</a></p>
+                <h3>2. Datenschutzbeauftragte</h3>
+                <p>Sandra Scholl · <a href="mailto:sandra.scholl@trefz.biz">sandra.scholl@trefz.biz</a></p>
+                <h3>3. Datenerhebung auf dieser Website</h3>
+                <p>Beim Besuch werden automatisch Server-Logfiles erhoben (IP-Adresse, Zeitpunkt, aufgerufene Seite, Browser). Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.</p>
+                <h3>4. Kontaktformular & Bewerbungen</h3>
+                <p>Bei Nutzung unserer Formulare verarbeiten wir Ihre Daten zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO). Bewerbungsdaten werden nach 6 Monaten gelöscht.</p>
+                <h3>5. Hosting (GitHub Pages)</h3>
+                <p>Diese Website wird bei GitHub Inc. gehostet. <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Datenschutzerklärung</a></p>
+                <h3>6. Google Fonts</h3>
+                <p>Wir nutzen Google Fonts. Dabei wird Ihre IP-Adresse an Google übermittelt. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Datenschutz</a></p>
+                <h3>7. Ihre Rechte</h3>
+                <p>Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20), Widerspruch (Art. 21 DSGVO). Widerruf an: <a href="mailto:sandra.scholl@trefz.biz">sandra.scholl@trefz.biz</a></p>
+                <h3>8. Aufsichtsbehörde</h3>
+                <p>Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg · <a href="https://www.baden-wuerttemberg.datenschutz.de" target="_blank" rel="noopener noreferrer">www.baden-wuerttemberg.datenschutz.de</a></p>
+                <p><em>Stand: Januar 2026</em></p>
+            </div>
         </div>
     </div>
+
+    <!-- Bewerbungs-Modal -->
     <div class="modal" id="apply-modal">
         <div class="modal-content" style="max-width: 700px;">
             <div class="modal-header"><h2 id="apply-modal-title">Bewerbung</h2><button class="modal-close" onclick="closeModal('apply')">&times;</button></div>
@@ -186,14 +225,10 @@
     <script src="script.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() { loadJobs(); });
-
         function loadJobs() {
-            fetch('jobs.json')
-                .then(r => r.json())
-                .then(jobs => renderJobs(jobs))
+            fetch('jobs.json').then(r => r.json()).then(jobs => renderJobs(jobs))
                 .catch(() => { document.getElementById('no-jobs').style.display = 'block'; });
         }
-
         function renderJobs(jobs) {
             const list = document.getElementById('jobs-list');
             const noJobs = document.getElementById('no-jobs');
@@ -205,28 +240,16 @@
                         <div>
                             <h2 class="job-title">${job.titel}</h2>
                             <div class="job-meta">
-                                <span class="job-meta-item">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                                    ${job.ort}
-                                </span>
-                                <span class="job-meta-item">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                                    ${job.typ}
-                                </span>
+                                <span class="job-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> ${job.ort}</span>
+                                <span class="job-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> ${job.typ}</span>
                             </div>
                         </div>
                         ${job.neu ? '<span class="job-tag new">Neu</span>' : ''}
                     </div>
                     <p class="job-description">${job.beschreibung}</p>
                     <div class="job-details">
-                        <div class="job-requirements">
-                            <h4>Das bringen Sie mit</h4>
-                            <ul class="job-list">${job.anforderungen.map(a => `<li>${a}</li>`).join('')}</ul>
-                        </div>
-                        <div class="job-benefits">
-                            <h4>Das bieten wir</h4>
-                            <ul class="job-list">${job.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
-                        </div>
+                        <div class="job-requirements"><h4>Das bringen Sie mit</h4><ul class="job-list">${job.anforderungen.map(a => `<li>${a}</li>`).join('')}</ul></div>
+                        <div class="job-benefits"><h4>Das bieten wir</h4><ul class="job-list">${job.benefits.map(b => `<li>${b}</li>`).join('')}</ul></div>
                     </div>
                     <div class="job-actions">
                         <button class="btn btn-primary" onclick="openApplyModal('${job.titel}')">Jetzt bewerben</button>
@@ -235,7 +258,6 @@
                 </div>
             `).join('');
         }
-
         function openApplyModal(position) {
             document.getElementById('apply-modal-title').textContent = 'Bewerbung: ' + position;
             document.getElementById('apply-position').value = position;
