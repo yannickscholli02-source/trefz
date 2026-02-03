@@ -1,7 +1,7 @@
 :root {
-    --orange: #e75c3f;
-    --orange-light: rgba(231, 92, 63, 0.08);
-    --orange-hover: #d04a2e;
+    --orange: #e8663a;
+    --orange-light: rgba(232, 102, 58, 0.08);
+    --orange-hover: #d4552b;
     --dark: #393a36;
     --text: #4a4b46;
     --text-light: #6b6b6b;
@@ -11,7 +11,7 @@
     --bg-soft: #f8f8f8;
     --bg-card: #ffffff;
     --white: #ffffff;
-    --red: #e75c3f;
+    --red: #e8663a;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
