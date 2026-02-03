@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs & Karriere | TREFZ GmbH Schwieberdingen</title>
-    <meta name="description" content="Karriere bei Trefz GmbH: Aktuelle Stellenangebote in Logistik, Lager und Spedition. ✓ Familienunternehmen ✓ Ausbildungsplätze ✓ Jetzt bewerben!">
+    <meta name="description" content="Karriere bei Trefz GmbH: Aktuelle Stellenangebote in Logistik und Spedition. ✓ Familienunternehmen ✓ Ausbildungsplätze ✓ Jetzt bewerben!">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://trefz.biz/stellen.html">
-    
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Jobs bei TREFZ GmbH">
-    <meta property="og:description" content="Aktuelle Stellenangebote und Ausbildungsplätze in der Logistikbranche.">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="nav">
         <div class="nav-inner">
-            <a href="index.html" class="logo">TREFZ</a>
+            <a href="index.html" class="logo"><img src="trefz_logo.png" alt="Trefz GmbH Logo"></a>
             <ul class="nav-links">
                 <li><a href="index.html#services">Leistungen</a></li>
                 <li><a href="index.html#process">Prozess</a></li>
@@ -30,13 +24,11 @@
                 <li><a href="index.html#anfrage" class="nav-cta">Anfrage starten</a></li>
             </ul>
             <div class="lang-switch">
-                <a href="stellen.html" class="lang-option active" title="Deutsch">DE</a>
-                <a href="jobs-en.html" class="lang-option" title="English">EN</a>
+                <a href="stellen.html" class="lang-option active">DE</a>
+                <a href="jobs-en.html" class="lang-option">EN</a>
             </div>
             <button class="mobile-menu-btn" aria-label="Menü" onclick="toggleMobileMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
         </div>
         <div class="mobile-menu" id="mobile-menu">
@@ -52,36 +44,28 @@
         </div>
     </nav>
 
-    <!-- Page Header -->
     <section class="page-header">
         <div class="section-label">Karriere</div>
         <h1>Offene Stellen</h1>
-        <p>Werden Sie Teil unseres Teams – sichere Arbeitsplätze, flache Hierarchien und echte Entwicklungsmöglichkeiten in einem Familienunternehmen.</p>
+        <p>Werden Sie Teil unseres Teams – sichere Arbeitsplätze, flache Hierarchien und echte Entwicklungsmöglichkeiten.</p>
     </section>
 
-    <!-- Jobs Section -->
     <section class="jobs-section">
         <div class="jobs-container">
             <div id="jobs-list"></div>
-
             <div class="no-jobs" id="no-jobs" style="display: none;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M8 12h8"/>
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
                 <h3>Aktuell keine offenen Stellen</h3>
-                <p>Wir freuen uns aber über Ihre Initiativbewerbung!</p>
+                <p>Wir freuen uns über Ihre Initiativbewerbung!</p>
             </div>
-
             <div class="initiative-card">
                 <h3>Initiativbewerbung</h3>
-                <p>Keine passende Stelle gefunden? Überzeugen Sie uns trotzdem – wir sind immer auf der Suche nach guten Leuten.</p>
+                <p>Keine passende Stelle gefunden? Überzeugen Sie uns trotzdem.</p>
                 <button class="btn btn-primary" onclick="openApplyModal('Initiativbewerbung')">
                     Initiativ bewerben
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </button>
             </div>
-
             <div class="apply-alternative">
                 <h4>Alternative Bewerbungswege</h4>
                 <p><strong>Per E-Mail:</strong> <a href="mailto:bewerbung@trefz.biz">bewerbung@trefz.biz</a></p>
@@ -90,7 +74,6 @@
         </div>
     </section>
 
-    <!-- Why Trefz -->
     <section class="why-trefz">
         <div class="section-header">
             <div class="section-label">Arbeitgeber</div>
@@ -98,46 +81,32 @@
         </div>
         <div class="benefits-grid">
             <div class="benefit-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
-                    <circle cx="9" cy="7" r="4"/>
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 <h3>Familienunternehmen</h3>
-                <p>Flache Hierarchien und kurze Entscheidungswege</p>
+                <p>Flache Hierarchien, kurze Wege</p>
             </div>
             <div class="benefit-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <rect x="2" y="7" width="20" height="14" rx="2"/>
-                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
                 <h3>Sichere Jobs</h3>
-                <p>35+ Jahre am Markt – Stabilität und Perspektive</p>
+                <p>35+ Jahre am Markt</p>
             </div>
             <div class="benefit-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 <h3>Weiterbildung</h3>
-                <p>IHK-Ausbildungsbetrieb mit Entwicklungsmöglichkeiten</p>
+                <p>IHK-Ausbildungsbetrieb</p>
             </div>
             <div class="benefit-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <circle cx="12" cy="12" r="10"/>
-                    <polyline points="12 6 12 12 16 14"/>
-                </svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 <h3>Work-Life-Balance</h3>
-                <p>Flexible Arbeitszeiten und kostenloser Parkplatz</p>
+                <p>Flexible Zeiten, Parkplatz</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-grid">
             <div class="footer-brand">
-                <a href="index.html" class="logo">TREFZ</a>
+                <a href="index.html" class="logo"><img src="trefz_logo.png" alt="Trefz GmbH"></a>
                 <p>B2B Logistik & Fulfillment<br>Schwieberdingen / Stuttgart</p>
                 <div class="footer-address">
                     <p>Markgröninger Straße 64<br>71701 Schwieberdingen</p>
@@ -177,77 +146,37 @@
         </div>
     </footer>
 
-    <!-- Modals -->
     <div class="modal" id="impressum-modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2>Impressum</h2>
-                <button class="modal-close" onclick="closeModal('impressum')">&times;</button>
-            </div>
+            <div class="modal-header"><h2>Impressum</h2><button class="modal-close" onclick="closeModal('impressum')">&times;</button></div>
             <div class="modal-body">
                 <h3>Trefz GmbH</h3>
-                <p>Markgröninger Straße 64, 71701 Schwieberdingen<br>Tel: +49 7150 3509-0 · info@trefz.biz</p>
-                <p>Geschäftsführung: Steffen Scholl · HRB 204881, AG Stuttgart</p>
+                <p>Markgröninger Straße 64, 71701 Schwieberdingen<br>Tel: +49 7150 3509-0 · info@trefz.biz<br>GF: Steffen Scholl · HRB 204881, AG Stuttgart</p>
             </div>
         </div>
     </div>
-
     <div class="modal" id="datenschutz-modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2>Datenschutz</h2>
-                <button class="modal-close" onclick="closeModal('datenschutz')">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p>Verantwortlicher: Steffen Scholl · Datenschutz: sandra.scholl@trefz.biz</p>
-                <p>Sie haben Rechte auf Auskunft, Berichtigung und Löschung Ihrer Daten.</p>
-            </div>
+            <div class="modal-header"><h2>Datenschutz</h2><button class="modal-close" onclick="closeModal('datenschutz')">&times;</button></div>
+            <div class="modal-body"><p>Verantwortlicher: Steffen Scholl · Datenschutz: sandra.scholl@trefz.biz<br>Rechte auf Auskunft, Berichtigung und Löschung gem. DSGVO.</p></div>
         </div>
     </div>
-
-    <!-- Bewerbungs-Modal -->
     <div class="modal" id="apply-modal">
         <div class="modal-content" style="max-width: 700px;">
-            <div class="modal-header">
-                <h2 id="apply-modal-title">Bewerbung</h2>
-                <button class="modal-close" onclick="closeModal('apply')">&times;</button>
-            </div>
+            <div class="modal-header"><h2 id="apply-modal-title">Bewerbung</h2><button class="modal-close" onclick="closeModal('apply')">&times;</button></div>
             <div class="modal-body">
                 <form class="anfrage-form" action="https://formspree.io/f/xyzexample" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="stelle" id="apply-position">
-                    
                     <div class="form-row">
-                        <div class="form-group">
-                            <label for="apply-firstname">Vorname *</label>
-                            <input type="text" id="apply-firstname" name="vorname" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="apply-lastname">Nachname *</label>
-                            <input type="text" id="apply-lastname" name="nachname" required>
-                        </div>
+                        <div class="form-group"><label for="apply-firstname">Vorname *</label><input type="text" id="apply-firstname" name="vorname" required></div>
+                        <div class="form-group"><label for="apply-lastname">Nachname *</label><input type="text" id="apply-lastname" name="nachname" required></div>
                     </div>
-
                     <div class="form-row">
-                        <div class="form-group">
-                            <label for="apply-email">E-Mail *</label>
-                            <input type="email" id="apply-email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="apply-phone">Telefon</label>
-                            <input type="tel" id="apply-phone" name="telefon">
-                        </div>
+                        <div class="form-group"><label for="apply-email">E-Mail *</label><input type="email" id="apply-email" name="email" required></div>
+                        <div class="form-group"><label for="apply-phone">Telefon</label><input type="tel" id="apply-phone" name="telefon"></div>
                     </div>
-
-                    <div class="form-group">
-                        <label for="apply-message">Anschreiben / Nachricht</label>
-                        <textarea id="apply-message" name="anschreiben" rows="4" placeholder="Erzählen Sie uns, warum Sie zu uns passen..."></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Lebenslauf / Zeugnisse</label>
-                        <input type="file" name="dateien" multiple accept=".pdf,.doc,.docx" style="padding: 0.75rem;">
-                    </div>
-
+                    <div class="form-group"><label for="apply-message">Anschreiben</label><textarea id="apply-message" name="anschreiben" rows="4" placeholder="Warum passen Sie zu uns?"></textarea></div>
+                    <div class="form-group"><label>Lebenslauf / Zeugnisse</label><input type="file" name="dateien" multiple accept=".pdf,.doc,.docx" style="padding: 0.75rem;"></div>
                     <button type="submit" class="btn btn-primary btn-full">Bewerbung absenden</button>
                 </form>
             </div>
@@ -256,34 +185,21 @@
 
     <script src="script.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            loadJobs();
-        });
+        document.addEventListener('DOMContentLoaded', function() { loadJobs(); });
 
         function loadJobs() {
             fetch('jobs.json')
-                .then(response => response.json())
-                .then(jobs => {
-                    renderJobs(jobs);
-                })
-                .catch(error => {
-                    console.error('Fehler beim Laden der Stellen:', error);
-                    document.getElementById('no-jobs').style.display = 'block';
-                });
+                .then(r => r.json())
+                .then(jobs => renderJobs(jobs))
+                .catch(() => { document.getElementById('no-jobs').style.display = 'block'; });
         }
 
         function renderJobs(jobs) {
-            const jobsList = document.getElementById('jobs-list');
+            const list = document.getElementById('jobs-list');
             const noJobs = document.getElementById('no-jobs');
-
-            if (jobs.length === 0) {
-                noJobs.style.display = 'block';
-                return;
-            }
-
+            if (jobs.length === 0) { noJobs.style.display = 'block'; return; }
             noJobs.style.display = 'none';
-
-            jobsList.innerHTML = jobs.map(job => `
+            list.innerHTML = jobs.map(job => `
                 <div class="job-card">
                     <div class="job-header">
                         <div>
@@ -297,42 +213,24 @@
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                     ${job.typ}
                                 </span>
-                                ${job.gehalt ? `
-                                <span class="job-meta-item">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-                                    ${job.gehalt}
-                                </span>
-                                ` : ''}
                             </div>
                         </div>
                         ${job.neu ? '<span class="job-tag new">Neu</span>' : ''}
                     </div>
-                    
                     <p class="job-description">${job.beschreibung}</p>
-
                     <div class="job-details">
                         <div class="job-requirements">
                             <h4>Das bringen Sie mit</h4>
-                            <ul class="job-list">
-                                ${job.anforderungen.map(a => `<li>${a}</li>`).join('')}
-                            </ul>
+                            <ul class="job-list">${job.anforderungen.map(a => `<li>${a}</li>`).join('')}</ul>
                         </div>
                         <div class="job-benefits">
                             <h4>Das bieten wir</h4>
-                            <ul class="job-list">
-                                ${job.benefits.map(b => `<li>${b}</li>`).join('')}
-                            </ul>
+                            <ul class="job-list">${job.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
                         </div>
                     </div>
-
                     <div class="job-actions">
-                        <button class="btn btn-primary" onclick="openApplyModal('${job.titel}')">
-                            Jetzt bewerben
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                        </button>
-                        <a href="mailto:bewerbung@trefz.biz?subject=Bewerbung: ${encodeURIComponent(job.titel)}" class="btn btn-ghost">
-                            Per E-Mail bewerben
-                        </a>
+                        <button class="btn btn-primary" onclick="openApplyModal('${job.titel}')">Jetzt bewerben</button>
+                        <a href="mailto:bewerbung@trefz.biz?subject=Bewerbung: ${encodeURIComponent(job.titel)}" class="btn btn-ghost">Per E-Mail</a>
                     </div>
                 </div>
             `).join('');
